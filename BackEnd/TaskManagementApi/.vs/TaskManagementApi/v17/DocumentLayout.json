@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|c:\\dilshan\\backend\\taskmanagementapi\\taskmanagementapi\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|c:\\dilshan\\backend\\taskmanagementapi\\taskmanagementapi\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|c:\\dilshan\\backend\\taskmanagementapi\\taskmanagementapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|c:\\dilshan\\backend\\taskmanagementapi\\taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|c:\\dilshan\\backend\\taskmanagementapi\\taskmanagementapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|c:\\dilshan\\backend\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\taskmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|c:\\dilshan\\backend\\taskmanagementapi\\taskmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|c:\\dilshan\\backend\\taskmanagementapi\\taskmanagementapi\\migrations\\20250523110023_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586FF412-9AE1-492E-A4BA-6B1D8EDCEAD6}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\migrations\\20250523110023_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasicAuthenticationHandler.cs",
+              "DocumentMoniker": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Authentication\\BasicAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Authentication\\BasicAuthenticationHandler.cs",
+              "ToolTip": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Authentication\\BasicAuthenticationHandler.cs",
+              "RelativeToolTip": "TaskManagementApi\\Authentication\\BasicAuthenticationHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T04:24:59.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Program.cs",
+              "ToolTip": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Program.cs",
+              "RelativeToolTip": "TaskManagementApi\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAE0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:53:28.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagementApi\\appsettings.json",
+              "ToolTip": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\appsettings.json",
+              "RelativeToolTip": "TaskManagementApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T10:34:40.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskManagementApi\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwD0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:37:29.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TaskManagementApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:08:11.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskManagementApi.csproj",
+              "DocumentMoniker": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi.csproj",
+              "RelativeDocumentMoniker": "TaskManagementApi\\TaskManagementApi.csproj",
+              "ToolTip": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi.csproj",
+              "RelativeToolTip": "TaskManagementApi\\TaskManagementApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T06:57:50.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Models\\TaskItem.cs",
+              "RelativeToolTip": "TaskManagementApi\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:00:47.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250523110023_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Migrations\\20250523110023_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Migrations\\20250523110023_InitialCreate.cs",
+              "ToolTip": "C:\\Dilshan\\BackEnd\\TaskManagementApi\\TaskManagementApi\\Migrations\\20250523110023_InitialCreate.cs",
+              "RelativeToolTip": "TaskManagementApi\\Migrations\\20250523110023_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:00:23.754Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
