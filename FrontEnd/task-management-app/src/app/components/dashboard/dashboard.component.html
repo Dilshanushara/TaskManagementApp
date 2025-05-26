@@ -1,0 +1,27 @@
+<!-- Header section with dashboard title and logout button -->
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2 class="task-dashboard">Task Dashboard</h2>
+  <button class="btn btn-outline-danger logout" (click)="logout()">
+    Logout
+  </button>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    <!-- Left column: Task creation/editing form component -->
+    <div class="col-md-5">
+      <app-create-task
+        [task]="selectedTask"
+        (taskSubmitted)="onTaskSubmit()"
+      ></app-create-task>
+    </div>
+
+    <!-- Right column: Task list component -->
+    <div class="col-md-7">
+      <app-task-list
+        (taskSelected)="onTaskSelected($event)"
+        [taskSubmitted]="refreshFlag"
+      ></app-task-list>
+    </div>
+  </div>
+</div>

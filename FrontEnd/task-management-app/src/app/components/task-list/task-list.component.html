@@ -1,0 +1,61 @@
+<div class="task-list">
+  <h3 class="mb-3">Task List</h3>
+
+  <!-- Edit and Delete buttons; enabled only when a task is selected -->
+  <div class="mt-3 mb-3">
+    <button
+      class="btn btn-outline-primary me-2"
+      [disabled]="!selectedTask"
+      (click)="editTask()"
+    >
+      Edit
+    </button>
+    <button
+      class="btn btn-outline-danger"
+      [disabled]="!selectedTask"
+      (click)="deleteTask()"
+    >
+      Delete
+    </button>
+  </div>
+  <!-- Input field to search and filter tasks based on ID, status, title, or description -->
+  <div class="mb-3">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Filter tasks by id, status, title or description"
+      [(ngModel)]="filterText"
+      (input)="applyFilters()"
+    />
+  </div>
+
+  <table
+    class="table table-bordered table-striped table-hover"
+    style="margin-top: 8px"
+  >
+    <!-- Table headers with clickable columns to trigger sorting by respective fields -->
+    <thead class="table-light">
+      <tr>
+        <th (click)="sortBy('id')">Task ID</th>
+        <th (click)="sortBy('createdDate')">Created Date</th>
+        <th (click)="sortBy('status')">Status</th>
+        <th (click)="sortBy('title')">Title</th>
+        <th (click)="sortBy('description')">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="let task of filteredTasks"
+        [class.table-active]="task === selectedTask"
+        (click)="selectTask(task)"
+      >
+        <td>{{ task.id }}</td>
+        <!-- Format and display the task's creation date as 'YYYY-MM-DD' using Angular's date pipe -->
+        <td>{{ task.createdDate | date : "yyyy-MM-dd" }}</td>
+        <td>{{ task.status }}</td>
+        <td>{{ task.title }}</td>
+        <td>{{ task.description }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

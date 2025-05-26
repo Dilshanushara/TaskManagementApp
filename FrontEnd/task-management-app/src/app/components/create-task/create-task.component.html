@@ -1,0 +1,84 @@
+<div class="task-form bg-light p-4 rounded border shadow-sm">
+  <!-- Success message or error message alert displayed after task creation or update -->
+  <div
+    *ngIf="successMessage || errorMessage"
+    class="alert"
+    [ngClass]="{
+      'alert-success': successMessage,
+      'alert-danger': errorMessage
+    }"
+  >
+    {{ successMessage || errorMessage }}
+  </div>
+
+  <!--using a Template driven form, since this is a simple form-->
+  <form #taskForm="ngForm" (ngSubmit)="createOrEditTask(taskForm)">
+    <h4 class="mb-3">
+      {{ newTask.id ? "Edit Task" : "Create New Task" }}
+    </h4>
+
+    <!-- Task Id field-->
+    <div class="mb-3" *ngIf="newTask.id">
+      <label class="form-label">Task Id</label>
+      <div class="form-control readonly-display">
+        {{ newTask.id }}
+      </div>
+    </div>
+
+    <!-- Date field-->
+    <div class="mb-3" *ngIf="newTask.createdDate">
+      <label class="form-label">Created Date</label>
+      <div class="form-control readonly-display">
+        {{ newTask.createdDate | date : "yyyy-MM-dd" }}
+      </div>
+    </div>
+
+    <!-- Title input field-->
+    <div class="mb-3">
+      <label class="form-label">Title</label>
+      <input
+        type="text"
+        name="title"
+        [(ngModel)]="newTask.title"
+        class="form-control"
+        placeholder="Enter task title"
+        required
+        maxlength="100"
+      />
+    </div>
+
+    <!-- Description input field-->
+    <div class="mb-3">
+      <label class="form-label">Description</label>
+      <textarea
+        name="description"
+        [(ngModel)]="newTask.description"
+        class="form-control"
+        placeholder="Enter task description"
+        required
+        maxlength="500"
+      ></textarea>
+    </div>
+
+    <!-- Task Status dropdown-->
+    <div class="mb-3">
+      <label for="status" class="form-label">Status</label>
+      <select
+        name="status"
+        [(ngModel)]="newTask.status"
+        class="form-select"
+        id="status"
+        required
+      >
+        <option *ngFor="let option of statusOptions" [value]="option">
+          {{ option }}
+        </option>
+      </select>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-success" [disabled]="!taskForm.valid">
+      {{ newTask.id ? "Update Task" : "Create Task" }}
+    </button>
+  </form>
+</div>

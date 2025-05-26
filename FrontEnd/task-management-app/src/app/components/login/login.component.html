@@ -1,0 +1,46 @@
+<div class="login-form bg-light p-4 rounded shadow-sm">
+  <!--using a Template driven form, since this is a simple login form-->
+  <form #loginForm="ngForm" (ngSubmit)="login()">
+    <h4 class="mb-3">Login</h4>
+
+    <!-- Username input field -->
+    <div class="mb-3">
+      <label for="username" class="form-label">Username</label>
+      <input
+        type="text"
+        id="username"
+        [(ngModel)]="username"
+        name="username"
+        class="form-control"
+        required
+      />
+    </div>
+
+    <!-- Password input field -->
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input
+        type="password"
+        id="password"
+        [(ngModel)]="password"
+        name="password"
+        class="form-control"
+        required
+      />
+    </div>
+
+    <!-- Error message displayed on login failure -->
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+
+    <!-- Login button (disabled when form is invalid) -->
+    <button
+      type="submit"
+      class="btn btn-primary w-100"
+      [disabled]="!loginForm.valid"
+    >
+      Login
+    </button>
+  </form>
+</div>
