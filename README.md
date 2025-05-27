@@ -1,6 +1,6 @@
 # Task Management App – Practical Assignment
 
-This repository contains the completed practical assignment for the recruitment process. It includes a basic Task Management API built with ASP.NET Core and a SQL Server database script.
+This repository contains the completed practical assignment for the recruitment process. It includes a basic Task Management API built with ASP.NET Core and a SQL Server database script and Angular Frontend.
 
 🔗 **Repository URL**: [https://github.com/Dilshanushara/TaskManagementApp](https://github.com/Dilshanushara/TaskManagementApp)
 
