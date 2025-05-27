@@ -21,6 +21,7 @@ This repository contains the completed practical assignment for the recruitment 
 - ASP.NET Core Web API
 - SQL Server
 - C#
+- Node.js
 - Angular
 - Bootstrap
 - Entity Framework Core
