@@ -29,6 +29,7 @@
     <div class="mb-3" *ngIf="newTask.createdDate">
       <label class="form-label">Created Date</label>
       <div class="form-control readonly-display">
+        <!-- Format and display the task's creation date as 'YYYY-MM-DD' using Angular's date pipe -->
         {{ newTask.createdDate | date : "yyyy-MM-dd" }}
       </div>
     </div>
