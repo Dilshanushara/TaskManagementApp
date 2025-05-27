@@ -59,7 +59,6 @@ This project uses **Basic Authentication**.
 - **Password**: `password`
 
 You must provide the `Authorization` header in Base64 format.  
-Example using `curl`:
 
 
 
