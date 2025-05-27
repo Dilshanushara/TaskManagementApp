@@ -19,7 +19,6 @@ namespace TaskManagementApi.Authentication
 
         protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
         {
-            // Skip authentication for anonymous endpoints
             if (!Request.Headers.ContainsKey("Authorization"))
                 return AuthenticateResult.Fail("Missing Authorization Header");
 
