@@ -6,12 +6,23 @@ This repository contains the completed practical assignment for the recruitment 
 
 ---
 
+## Features
+
+- tasks CRUD operation
+- Filter, sort, and search tasks
+- Responsive UI with Bootstrap
+- SQL Server database integration
+- RESTful API with CORS support
+
+---
+
 ## 🔧 Technologies Used
 
 - ASP.NET Core Web API
 - SQL Server
 - C#
 - Angular
+- Bootstrap
 - Entity Framework Core
 
 
